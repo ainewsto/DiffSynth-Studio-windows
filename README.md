@@ -40,8 +40,8 @@ python -m streamlit run Diffsynth_Studio.py
 
 ## Directly download windows整合包下载
 
-Windows
 You can directly download DiffSynth-Studio-windows with:
+
 
 
 
