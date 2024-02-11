@@ -1,7 +1,8 @@
 # DiffSynth Studio
 
-## 原作者项目地址
+## Forked from @Artiprocher's GitHub 原作者项目地址
 
+https://github.com/Artiprocher/DiffSynth-Studio
 
 ## Installation 安装环境
 
@@ -12,18 +13,36 @@ cd DiffSynth-Studio-windows
 conda create -p ./python python=3.9
 ```
 
-
 activate the Python environment:
 
 ```
-conda activate DiffSynthStudio
+conda activate python
 ```
+
+cuda118:
+
+```
+pip install -r requirements-cuda118.txt
+```
+
+cuda121:
+
+```
+pip install -r requirements-cuda121.txt
+```
+
 
 ## Run (in WebUI) 启动UI界面
 
 ```
 python -m streamlit run Diffsynth_Studio.py
 ```
+
+## Directly download windows整合包下载
+
+Windows
+You can directly download BreadcrumbsDiffSynth-Studio-windows with:
+
 
 
 ## Image Creator 图片操作界面
@@ -33,6 +52,8 @@ python -m streamlit run Diffsynth_Studio.py
 ## Video Creator 视频操作界面
 
 ![Video Creator](https://github.com/ainewsto/DiffSynth-Studio-windows/assets/113163264/eb674fe9-bddd-4515-a170-10cff344eab4)
+
+
 
 
 
