@@ -1,0 +1,10 @@
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+transformers
+controlnet-aux==0.0.7
+streamlit
+streamlit-drawable-canvas
+imageio
+imageio[ffmpeg]
+safetensors
+einops
+cupy-cuda11x
