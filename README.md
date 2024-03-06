@@ -22,12 +22,14 @@ conda activate python
 cuda118:
 
 ```
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements-cuda118.txt
 ```
 
 cuda121:
 
 ```
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install -r requirements-cuda121.txt
 ```
 
